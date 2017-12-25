@@ -17,6 +17,6 @@ mail($mail_to, $subject, $field_message, "From " . $field_name);
 echo "Your Message has been sent";
 ?>
 <script language="javascript" type="text/javascript">
-		alert('Thank you for the message. We will contact you shortly.');
+		document.getElementById("response").innerHTML = "Your Email has been sent!";
 		window.location = 'index.html';
 </script>
