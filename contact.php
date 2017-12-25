@@ -13,7 +13,7 @@ $subject = 'Message for Sanguinetti Pictures from '. $field_name;
 //$headers = 'From: '.$field_email."\r\n";
 //$headers .= 'Reply-To: '.$field_email."\r\n";
 
-mail($mail_to, $subject, $body_message, "From " . $field_name);
+mail($mail_to, $subject, $field_message, "From " . $field_name);
 echo "Your Message has been sent";
 ?>
 <script language="javascript" type="text/javascript">
