@@ -195,7 +195,7 @@ BRUSHED.contactForm = function(){
 		
 		$.ajax({
 			type: "POST",
-			url: "php/contact.php",
+			url: "http://formspree.io/mcordero1206@gmail.com",
 			data: fields,
 			dataType: 'json',
 			success: function(response) {
