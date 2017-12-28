@@ -106,22 +106,22 @@
 	
 	/*Contact form validation*/
 	
-	$('form#contact_form').validate({
-  messages: { },
-  submitHandler: function(form) {
-    $.ajax({
-      url: "//formspree.io/mcordero1206@gmail.com",
-      method: "POST",
-      data: $(form).serialize(),
-      dataType: "json",
-      success: function(data) {
-          $("form#contact_form :input").prop("disabled", true);
-          $('#thanks').show();
-      }
-    });
-    return false;
-  }
-});
+//	$('form#contact_form').validate({
+//  messages: { },
+//  submitHandler: function(form) {
+//    $.ajax({
+//      url: "//formspree.io/mcordero1206@gmail.com",
+//      method: "POST",
+//      data: $(form).serialize(),
+//      dataType: "json",
+//      success: function(data) {
+//          $("form#contact_form :input").prop("disabled", true);
+//          $('#thanks').show();
+//      }
+//    });
+//    return false;
+//  }
+//});
 </script>
 <!--End chrome fix-->
 	
@@ -478,7 +478,7 @@
     <div class="row">
       <div class="span9"> 
         
-        <!--
+        
         	<form action="https://formspree.io/mcordero1206@gmail.com" method="POST" id="contact-form" class="contact-form">
            
             		<input id="contact_name"  class="contact-name" type="text" placeholder="Full Name" name="name" />
@@ -497,7 +497,8 @@
                 	
                 </div>
             </form>
--->
+
+<!--
         
         <form id='contact_form' method='POST'>
           <div>
@@ -511,6 +512,7 @@
             <input class='button white' type='submit'>
           </div>
         </form>
+-->
 		  
       </div>
       <div class="span3">
