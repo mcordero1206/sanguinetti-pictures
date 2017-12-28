@@ -310,7 +310,7 @@ h3.spec {
 #home-slider .slider-text {
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	top: 35%;
 	margin: -150px 0 0 -585px;
 	width: 1170px;
 	height: 250px;
@@ -445,7 +445,7 @@ h3.spec {
 	width: 50px;
 	height: 50px;
 	left: 50%;
-	top: 75%;
+	top: 85%;
 	transform: translate(-50%);
 	-webkit-transition: background 0.1s linear 0s;	
 	   -moz-transition: background 0.1s linear 0s;
@@ -733,6 +733,10 @@ p.new-price {
     color: #d0595b;
 }
 
+.profile {
+    margin-bottom: 30px;
+}
+
 /* ==================================================
    Section Portfolio
 ================================================== */
@@ -857,7 +861,8 @@ p.new-price {
 }
 
 .profile-description {
-	margin-bottom: 25px;	
+	margin-bottom: 25px;
+	display: none;
 }
 
 .image-wrap {

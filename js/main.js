@@ -77,10 +77,10 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : 'img/slider-images/CASA1.JPG', title : '<div class="slide-content">Sanguinetti<span class="break"></span> Pictures</div>', thumb : '', url : ''},
-											{image : 'img/slider-images/CASA2.JPG', title : '<div class="slide-content">Sanguinetti<span class="break"></span> Pictures</div>', thumb : '', url : ''},
-											{image : 'img/slider-images/DSC_0807.JPG', title : '<div class="slide-content">Sanguinetti<span class="break"></span> Pictures</div>', thumb : '', url : ''},
-											{image : 'img/slider-images/PRESENTACION_GIGI_26_ABRIL_188.JPG', title : '<div class="slide-content">Sanguinetti<span class="break"></span> Pictures</div>', thumb : '', url : ''}  
+											{image : 'img/slider-images/CASA1.JPG', title : '<div class="slide-content">Sanguinetti<br/> Photos & Videos</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/CASA2.JPG', title : '<div class="slide-content">Sanguinetti<br/> Photos & Videos</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/DSC_0807.JPG', title : '<div class="slide-content">Sanguinetti<br/> Photos & Videos</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/PRESENTACION_GIGI_26_ABRIL_188.JPG', title : '<div class="slide-content">Sanguinetti<br/> Photos & Videos</div>', thumb : '', url : ''}  
 									],
 									
 		// Theme Options			   
