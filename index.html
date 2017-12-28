@@ -530,19 +530,17 @@
     <div class="row">
     	<div class="span9">
         
-        	<form action="https://formspree.io/mcordero1206@gmail.com" method="post" id="contact-form" class="contact-form">
-            	<p class="contact-name">
-            		<input id="contact_name" type="text" placeholder="Full Name" value="" name="cf_name" />
-                </p>
-                <p class="contact-email">
-                	<input id="contact_email" type="text" placeholder="Email Address" value="" name="cf_email" />
-                </p>
-                <p class="contact-message">
-                	<textarea id="contact_message" placeholder="Your Message" name="cf_message" rows="15" cols="40"></textarea>
-                </p>
-                <p class="contact-submit">
-					<input type="submit" name="submit" value="Send" id="contact-submit" class="submit"></input>
-                </p>
+        	<form action="https://formspree.io/mcordero1206@gmail.com" method="POST" id="contact-form" class="contact-form">
+           
+            		<input id="contact_name"  class="contact-name" type="text" placeholder="Full Name" name="name" />
+          
+                	<input id="contact_email"  class="contact-email" type="text" placeholder="Email Address" name="_replyto" />
+                
+                	<textarea id="contact_message" class="contact-message" placeholder="Your Message" name="cf_message"></textarea>
+               
+         
+					<input type="submit" name="submit" value="Send" id="contact-submit"  class="submit"></input>
+             
                 
                 <div id="response">
                 
