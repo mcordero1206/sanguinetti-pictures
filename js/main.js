@@ -420,15 +420,15 @@ $(document).ready(function(){
 	]);
 	
 	// Preload the page with jPreLoader
-	$('body').jpreLoader({
-		splashID: "#jSplash",
-		showSplash: false,
-		showPercentage: false,
-		autoClose: true,
-		splashFunction: function() {
-			$('#circle').delay(250).animate({'opacity' : 1}, 500, 'linear');
-		}
-	});
+//	$('body').jpreLoader({
+//		splashID: "#jSplash",
+//		showSplash: false,
+//		showPercentage: false,
+//		autoClose: true,
+//		splashFunction: function() {
+//			$('#circle').delay(250).animate({'opacity' : 1}, 500, 'linear');
+//		}
+//	});
 	
 	BRUSHED.nav();
 	BRUSHED.mobileNav();
