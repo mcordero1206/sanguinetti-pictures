@@ -788,22 +788,23 @@
         
         	<form action="https://formspree.io/mcordero1206@gmail.com" method="POST" id="contact-form" class="contact-form">
            
-            		<input id="contact_name"  class="contact-name" type="text" placeholder="Nombre completo" name="name" />
+            		<input id="contact_name"  class="contact-name" type="text" placeholder="Nombre completo" name="name" required/>
           
-                	<input id="contact_email"  class="contact-email" type="text" placeholder="Dirección de correo electrónico" name="_replyto" />
+                	<input id="contact_email"  class="contact-email" type="text" placeholder="Dirección de correo electrónico" name="_replyto" required/>
                 
-					<input type="hidden" name="_subject" value="Mensaje para Sanguinetti Fotos y Videos!" />
+					<input type="hidden" name="_subject" value="Mensaje para Sanguinetti Fotos y Videos!"/>
 				
-                	<textarea id="contact_message" class="contact-message" placeholder="Tu mensaje" name="cf_message"></textarea>
+                	<textarea id="contact_message" class="contact-message" placeholder="Tu mensaje" name="cf_message" required></textarea>
                
+				 
          
 					<input type="submit" name="submit" value="Send" id="contact-submit"  class="submit"></input>
              
                 
-                <div id="response">
-                	
-                </div>
+               
             </form>
+		
+		<div id="response"></div>
 
 <!--
         
@@ -892,7 +893,13 @@
 <script>
 	$("#contact-submit").click(function(){
 		console.log("Click event recorded!");
-		$("#contact-thanks").html("¡Gracias por contactarnos! Nos pondremos en contacto con usted en breve.").css({fontSize: 20});
+		$(this).attr("disabled", true);
+		$("#contact_name").attr("disabled", true);
+		$("#contact_email").attr("disabled", true);
+		$("#contact_message").attr("disabled", true);
+		$(this).css('visibility', 'hidden');
+		
+		$("#response").html("¡Gracias por contactarnos! Nos pondremos en contacto con usted en breve.").css({fontSize: 20});
 	})
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core --> 
