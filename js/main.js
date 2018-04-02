@@ -408,12 +408,12 @@ $(document).ready(function(){
 		nope: 'js/placeholder.js', 
 		complete : function() {
 				if (!Modernizr.placeholder) {
-						Placeholders.init({
-						live: true,
-						hideOnFocus: false,
-						className: "yourClass",
-						textColor: "#999"
-						});    
+//						Placeholders.init({
+//						live: true,
+//						hideOnFocus: false,
+//						className: "yourClass",
+//						textColor: "#999"
+//						});    
 				}
 		}
 	}
