@@ -722,6 +722,10 @@ CUSTOM CSS
 	margin: 0;
 }
 
+div#last-pkg {
+    margin-bottom: 0;
+}
+
 .photo-price li {
 	line-height: 25px;
 }
