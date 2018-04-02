@@ -187,30 +187,30 @@ BRUSHED.fancyBox = function(){
    Contact Form
 ================================================== */
 
-BRUSHED.contactForm = function(){
-	$("#contact-submit").on('click',function() {
-		$contact_form = $('#contact-form');
-		
-		var fields = $contact_form.serialize();
-		
-		$.ajax({
-			type: "POST",
-			url: "https://formspree.io/mcordero1206@gmail.com",
-			data: fields,
-			dataType: 'json',
-			success: function(response) {
-				
-				if(response.status){
-					$('#contact-form input').val('');
-					$('#contact-form textarea').val('');
-				}
-				
-				$('#response').empty().html(response.html);
-			}
-		});
-		return false;
-	});
-}
+//BRUSHED.contactForm = function(){
+//	$("#contact-submit").on('click',function() {
+//		$contact_form = $('#contact-form');
+//		
+//		var fields = $contact_form.serialize();
+//		
+//		$.ajax({
+//			type: "POST",
+//			url: "https://formspree.io/mcordero1206@gmail.com",
+//			data: fields,
+//			dataType: 'json',
+//			success: function(response) {
+//				
+//				if(response.status){
+//					$('#contact-form input').val('');
+//					$('#contact-form textarea').val('');
+//				}
+//				
+//				$('#response').empty().html(response.html);
+//			}
+//		});
+//		return false;
+//	});
+//}
 
 
 /* ==================================================
